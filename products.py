@@ -14,4 +14,5 @@ while True:
 
 print(products)		
 
-products[0][0]
+for p in products:
+	print(p[0], 'price is ', p[1])
